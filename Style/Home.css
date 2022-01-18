@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(27, 98, 204);
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(145, 145, 223);
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+}
+
+.navbar .link{
+    float: left;
+    width: 60%;
+}
+.navbar .link li{
+    display: inline-block;
+    padding: 30px;
+}
+.navbar .link li a:link{
+    text-decoration: none;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+.form{
+    
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+.tab{
+   padding-left: 300px;
+   padding-bottom: 300px;
+}
+
+
+
+
+footer{
+    background-color: grey;
+    
+}
