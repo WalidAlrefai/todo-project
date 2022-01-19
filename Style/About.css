@@ -1,11 +1,11 @@
-body{
-    background-color: rgb(27, 98, 204);
-}
+
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .navbar{
-    background-color: rgb(145, 145, 223);
+    background-color: gray;
     overflow: hidden;
 }
 
@@ -31,38 +31,65 @@ ul{
 .navbar .link li a:link{
     text-decoration: none;
 }
-main{
+.allinfo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+.imgw{
+    margin: 10px 12%;
    
 }
-.allinfo{
-    overflow: hidden;
-    display: inline-block;
-    align-content: center;
-    padding-bottom: 90px;
-  
+.p1{
+    margin: 10px 90px;
+    color: red;
+}
+.p2{
+    width: 300px;
+    margin: 0 400px 0 0;
+    border: 5px solid darkgray;
     
 }
-
-.imgw{
-    float:left;
-    align-items: center;
-    padding-left: 120px; 
-}
-
-.info{
-    float: left;
-    align-content: center;
-    padding-left :10px;
-}
 .user{
-    padding-left: 120px;
-    padding-bottom: 20px;
+
+    margin:80px 0 ;
 }
-.massage{
-    padding-left: 195px;
-    padding-bottom: 60px;
+.header-user{
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
 }
+.form-contact{
+    display: flex;
+    justify-content:center;
+}
+.label-contact label{
+    display: flex;
+    margin: 0 50px;
+
+}
+.input-contact input{
+    display: flex;
+
+}
+.fname{
+    margin: 20px;
+}
+
+
+
+
+
+
 footer{
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
     
 }
