@@ -5,10 +5,10 @@
 ### Home Page
 
 
-![](./assets2/home-page.png)
+![](./assets/home-page.png)
 
 
 ### About Page
 
 
-![](./assets2/about-page.png)
+![](./assets/about-page.png)

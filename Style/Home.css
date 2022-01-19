@@ -1,11 +1,11 @@
-body{
-    background-color: rgb(27, 98, 204);
-}
+
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .navbar{
-    background-color: rgb(145, 145, 223);
+    background-color: gray;
     overflow: hidden;
 }
 
@@ -38,19 +38,25 @@ table, th, td {
     border: 1px solid black;
 }
 .form{
-    
-    padding-left: 300px;
-    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 70px 0;
 }
 .tab{
-   padding-left: 300px;
-   padding-bottom: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 300px 0;
+    
 }
-
-
 
 
 footer{
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
     
 }
