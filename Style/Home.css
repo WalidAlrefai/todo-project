@@ -18,11 +18,12 @@ ul{
 .navbar .logo{
     float: left;
     width: 40%;
+    margin: 10px 0 0 10px;
 }
 
 .navbar .link{
     float: left;
-    width: 60%;
+    width: 50%;
 }
 .navbar .link li{
     display: inline-block;
@@ -32,10 +33,21 @@ ul{
     text-decoration: none;
 }
 
-
+table{
+    width: 350px;
+}
 
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+   
+}
+.checked{
+    background-color: green;
+}
+.uncheck{
+    background-color: red;
 }
 .form{
     display: flex;

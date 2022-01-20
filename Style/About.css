@@ -18,11 +18,12 @@ ul{
 .navbar .logo{
     float: left;
     width: 40%;
+    margin: 10px 0 0 10px;
 }
 
 .navbar .link{
     float: left;
-    width: 60%;
+    width: 50%;
 }
 .navbar .link li{
     display: inline-block;
@@ -39,17 +40,22 @@ ul{
 
 }
 .imgw{
-    margin: 10px 12%;
+    margin: 10px 5% 0 13%;
    
 }
+img{
+    border-radius: 50%;
+    overflow: hidden;
+}
 .p1{
-    margin: 10px 90px;
+    margin: 10px 90px 10px 150px;
     color: red;
 }
 .p2{
-    width: 300px;
-    margin: 0 400px 0 0;
+    width: 400px;
+    margin: 0 550px 0 0;
     border: 5px solid darkgray;
+    overflow: hidden;
     
 }
 .user{
@@ -68,13 +74,18 @@ ul{
     justify-content:center;
 }
 .label-contact label{
+    
     display: flex;
-    margin: 0 50px;
+    margin: 0 50px 0 0;
 
 }
 .input-contact input{
     display: flex;
+    
 
+}
+.input-contact textarea{
+    width: 171.47px;
 }
 .fname{
     margin: 20px;
