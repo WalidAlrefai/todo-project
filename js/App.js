@@ -1,9 +1,5 @@
-// "use strict";
-// prompt("Please Enter your Name:");
-// var userGender=prompt("Plrease Enter Your gender")
-// if(userGender.toLocaleLowerCase === "male"){
-//     console.log("male")
-// }
+"use strict";
+
 var yourName =prompt("Please enter your Name");
 var yourGender = prompt("What is your gender");
 var yourAge = prompt("What is your age");
